@@ -67,6 +67,10 @@ console.log(findPretty(1, 10));
 /* ________________________________ Problem - 7 ________________________________
 Link: https://www.codechef.com/submit/DOLL
 */
+const greenLightRedLight = (heightOfTwo, othersHeight) => {
+    const peopleKilled = othersHeight.filter((height) => height > heightOfTwo);
+    return peopleKilled.length;
+};
 /* ________________________________ Problem - 8 ________________________________
 Link: https://www.codechef.com/submit/MANIPULATE
 */
